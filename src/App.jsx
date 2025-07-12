@@ -6,8 +6,9 @@ import SkillSet from "./Components/SkillSet";
 function App() {
   return <>
   <Profile />
+    <InfiniteSlider />
+
   <SkillSet />
-  <InfiniteSlider />
   </>
 }
 
