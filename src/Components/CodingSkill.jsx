@@ -7,7 +7,7 @@ function CodingSkill() {
       <div className="bg-slate-950 min-h-[45rem] flex flex-col justify-around px-4 sm:px-6 md:px-12">
         {/* 1 */}
         <h2 className=" text-white text-3xl sm:text-4xl md:text-5xl font-medium flex justify-center p-4 sm:p-6 text-center">
-          MY SKILL-SET
+          My Tech Toolbox
         </h2>
 
         {/* 2 */}
@@ -16,7 +16,7 @@ function CodingSkill() {
         </div>
 
         {/* 3 */}
-        <div className="min-h-[40rem] border-7 flex flex-col lg:flex-row justify-around items-center gap-6 mt-6">
+        <div className="min-h-[40rem]  flex flex-col lg:flex-row justify-around items-center gap-6 mt-6">
           {/* Frontend */}
           <div className="w-full h-[20rem] md:w-[90%] lg:w-[45%]  text-white flex flex-col items-center justify-around p-4 shadow-lg shadow-blue-500/50 hover:shadow-2xl transition-shadow duration-300 ease-in-out">
             <h1 className="text-2xl sm:text-3xl mb-4">Frontend Development</h1>
