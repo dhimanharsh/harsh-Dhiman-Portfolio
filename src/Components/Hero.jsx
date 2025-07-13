@@ -7,16 +7,17 @@ function Hero() {
         <p className="text-xl sm:text-3xl md:text-5xl text-green-400 font-mono">
           const name =
         </p>
-        <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-white tracking-tight">
+        <h1 className="text-6xl sm:text-5xl md:text-7xl font-bold text-white tracking-tight">
           "Harsh"
         </h1>
 
         <p className="mt-2 text-sm sm:text-lg lg:text-2xl text-gray-400 font-mono">
           // MERN Stack Developer
         </p>
-        <p className="text-sm sm:text-lg lg:text-2xl text-gray-500 font-mono">
-          // I build fast, clean, full-stack apps
-        </p>
+        <p className="text-sm sm:text-lg lg:text-2xl text-gray-500 font-mono break-words whitespace-normal overflow-hidden text-center px-4">
+  // I build fast, clean, full-stack apps
+</p>
+
 
         <div className="mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4">
           <a
