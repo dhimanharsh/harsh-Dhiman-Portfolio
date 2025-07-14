@@ -23,12 +23,12 @@ function CodingSkill() {
 
             <div className="flex flex-wrap justify-around items-center w-full gap-4">
               {[
-                { title: "HTML" },
-                { title: "CSS" },
-                { title: "JAVASCRIPT" },
-                { title: "TAILWIND" },
-                { title: "BOOTSTRAP" },
-                { title: "REACT JS" },
+                { title: "HTML",level:"Good" },
+                { title: "CSS",level:"Good" },
+                { title: "JAVASCRIPT",level:"Good" },
+                { title: "TAILWIND",level:"Intermidiate" },
+                { title: "BOOTSTRAP",level:"Good" },
+                { title: "REACT JS",level:"Intermidiate" },
               ].map((skill, i) => (
                 <div
                   key={i}
@@ -41,7 +41,7 @@ function CodingSkill() {
                   />
                   <div>
                     <h3>{skill.title}</h3>
-                    <p>Intermediate</p>
+                    <p>{skill.level}</p>
                   </div>
                 </div>
               ))}

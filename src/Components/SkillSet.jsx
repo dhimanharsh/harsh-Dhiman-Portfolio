@@ -4,7 +4,7 @@ function SkillSet() {
   return (
     <>
     {/* main div----- 1*/}
-<div className="flex flex-col justify-between h-full bg-slate-950">
+<div className="flex flex-col justify-between h-full bg-slate-950 pb-7 ">
   {/* Top Heading */}
   <div className="m-auto flex flex-col justify-center items-center text-white text-center px-4 p-4">
     <span className="text-3xl">Get to Know More</span>

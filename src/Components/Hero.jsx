@@ -30,7 +30,7 @@ function Hero() {
             href="#contact"
             className="px-4 py-2 sm:px-6 sm:py-3 border border-white hover:bg-white hover:text-black rounded-full text-sm sm:text-base transition"
           >
-            Contact Me
+           View CV
           </a>
         </div>
       </div>
