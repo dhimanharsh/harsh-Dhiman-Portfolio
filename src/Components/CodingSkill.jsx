@@ -18,7 +18,7 @@ function CodingSkill() {
         {/* 3 */}
         <div className="min-h-[full]  flex flex-col lg:flex-row justify-around items-center gap-6 mt-6">
           {/* Frontend */}
-          <div className="w-full h-[full] md:w-[90%] lg:w-[45%]  text-white flex flex-col items-center justify-around p-4 shadow-lg shadow-blue-500/50 hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+          <div className="w-full h-[full] md:w-[90%] lg:w-[45%] sm:h-[20rem] text-white flex flex-col items-center justify-around p-4 shadow-lg shadow-blue-500/50 hover:shadow-2xl transition-shadow duration-300 ease-in-out">
             <h1 className="text-2xl sm:text-3xl mb-4">Frontend Technologies</h1>
 
             <div className="flex flex-wrap justify-around items-center w-full gap-4">
@@ -49,7 +49,7 @@ function CodingSkill() {
           </div>
 
           {/* Backend */}
-          <div className=" w-full h-[full] md:w-[90%] lg:w-[45%] text-white flex flex-col items-center justify-around p-4 shadow-lg shadow-blue-500/50 hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+          <div className=" w-full h-[full] md:w-[90%] sm:h-[20rem] lg:w-[45%] text-white flex flex-col items-center justify-around p-4 shadow-lg shadow-blue-500/50 hover:shadow-2xl transition-shadow duration-300 ease-in-out">
             <h1 className="text-2xl sm:text-3xl mb-4">Backend Technologies</h1>
 
             <div className="flex flex-wrap justify-around items-center w-full gap-4">

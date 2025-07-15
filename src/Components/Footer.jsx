@@ -18,12 +18,54 @@ function Footer() {
 
     {/* Contact Info Box */}
     <div className="border-2 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:border-sky-400
- border-white w-full sm:w-[90%] md:w-[60%] lg:w-[40%] text-white flex flex-wrap justify-center sm:justify-around items-center gap-4 sm:gap-6 py-4 px-2 rounded-4xl">
+ border-white w-full sm:w-[90%] md:w-[60%] lg:w-[40%] text-white flex flex-wrap justify-center sm:justify-center items-center gap-4 sm:gap-6 py-4 px-2 rounded-4xl">
       <img src="/mail.svg" alt="" className="h-8 sm:h-10" />
       <span className="font-bold text-sm sm:text-base break-words text-center">harshdhiman484@gmail.com</span>
-      <img src="/linkedin.svg" alt="linkedin" className="h-8 sm:h-10" />
-      <span className="font-bold text-sm sm:text-base break-words text-center">linkedin</span>
+      
     </div>
+
+     <div
+          className="
+ border-white w-full sm:w-[90%] md:w-[60%] lg:w-[40%] text-white flex flex-wrap justify-around sm:justify-around items-center gap-4 sm:gap-6 py-4 px-2 rounded-4xl cursor-pointer"
+        >
+   
+          <a
+  href="https://www.instagram.com/your_username"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="transition transform hover:scale-110 hover:-translate-y-1 duration-300"
+>
+  <img src="/insta.svg" alt="Instagram" className="h-8 sm:h-10" />
+</a>
+
+<a
+  href="https://www.linkedin.com/in/harshdhiman21/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="transition transform hover:scale-110 hover:-translate-y-1 duration-300"
+>
+  <img src="/linkedincolor.svg" alt="LinkedIn" className="h-8 sm:h-10" />
+</a>
+
+<a
+  href="https://github.com/dhimanharsh"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="transition transform hover:scale-110 hover:-translate-y-1 duration-300"
+>
+  <img src="/github.svg" alt="GitHub" className="h-8 sm:h-10" />
+</a>
+
+<a
+  href="https://www.facebook.com/DhimanHarsh"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="transition transform hover:scale-110 hover:-translate-y-1 duration-300"
+>
+  <img src="/facebook.svg" alt="Facebook" className="h-8 sm:h-10" />
+</a>
+
+        </div> 
   </div>
 
   {/* Footer */}
@@ -44,17 +86,4 @@ export default Footer
 
 
 
-   {/* <div
-          className="border-2 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:border-sky-400
- border-white w-full sm:w-[90%] md:w-[60%] lg:w-[40%] text-white flex flex-wrap justify-around sm:justify-around items-center gap-4 sm:gap-6 py-4 px-2 rounded-4xl cursor-pointer"
-        >
    
-            <img src="/insta.svg" alt="" className="h-8 sm:h-10" />
-       
-         
-            <img src="/linkedincolor.svg" alt="" className="h-8 sm:h-10" />
-     
-            <img src="/github.svg" alt="" className="h-8 sm:h-10" />
-         
-            <img src="/facebook.svg" alt="" className="h-8 sm:h-10" />
-        </div> */}
