@@ -4,7 +4,7 @@ import Marquee from "./Marquee";
 function CodingSkill() {
   return (
     <>
-      <div className="bg-slate-950 pt-8 pb-15   min-h-[45rem] flex flex-col justify-around px-4 sm:px-6 md:px-12">
+      <div className="bg-slate-950 pt-8 pb-15   min-h-[45rem] flex flex-col justify-around px-4 sm:px-6 md:px-12" id="tools">
         {/* 1 */}
         <h2 className=" text-white text-3xl sm:text-4xl md:text-5xl font-medium flex justify-center p-4 sm:p-6 text-center">
           My Tech Toolbox
@@ -19,7 +19,7 @@ function CodingSkill() {
         <div className="min-h-[full]  flex flex-col lg:flex-row justify-around items-center gap-6 mt-6">
           {/* Frontend */}
           <div className="w-full h-[full] md:w-[90%] lg:w-[45%]  text-white flex flex-col items-center justify-around p-4 shadow-lg shadow-blue-500/50 hover:shadow-2xl transition-shadow duration-300 ease-in-out">
-            <h1 className="text-2xl sm:text-3xl mb-4">Frontend Development</h1>
+            <h1 className="text-2xl sm:text-3xl mb-4">Frontend Technologies</h1>
 
             <div className="flex flex-wrap justify-around items-center w-full gap-4">
               {[
