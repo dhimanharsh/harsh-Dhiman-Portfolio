@@ -39,3 +39,22 @@ function Footer() {
 }
 
 export default Footer
+
+
+
+
+
+   {/* <div
+          className="border-2 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:border-sky-400
+ border-white w-full sm:w-[90%] md:w-[60%] lg:w-[40%] text-white flex flex-wrap justify-around sm:justify-around items-center gap-4 sm:gap-6 py-4 px-2 rounded-4xl cursor-pointer"
+        >
+   
+            <img src="/insta.svg" alt="" className="h-8 sm:h-10" />
+       
+         
+            <img src="/linkedincolor.svg" alt="" className="h-8 sm:h-10" />
+     
+            <img src="/github.svg" alt="" className="h-8 sm:h-10" />
+         
+            <img src="/facebook.svg" alt="" className="h-8 sm:h-10" />
+        </div> */}
